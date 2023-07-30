@@ -47,3 +47,23 @@ if(num3%2==0){
     alert(num3+" is Odd Number");
 }
 
+// Switch Statement
+
+var num4=prompt("Enter any Number between 1 to 7.");
+
+switch(num4){
+    case 1:
+        console.log("Today is Sunday");
+    case 2:
+        console.log("Today is Monday.");
+    case 3:
+        console.log("Today is Tuesday");
+    case 4:
+        console.log("Today is Wednesday");
+    case 5:
+        console.log("Today is Thursday");
+    case 6:
+        console.log("Today is Friday");
+    case 7:
+        console.log("Today is Saturday");
+}
